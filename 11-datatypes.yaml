@@ -15,15 +15,15 @@
 
   tasks: 
   - name: print key value pair
-    ansible.builint.debug:
+    ansible.builtin.debug:
       msg: "name: {{NAME}}"
   - name: print list
-    ansible.builint.debug:
+    ansible.builtin.debug:
       msg: "skills: {{skills}}"
   - name: print map
-    ansible.builint.debug:
+    ansible.builtin.debug:
       msg: "Experience: {{Experience}}"
   - name: print boolean
-    ansible.builint.debug:
+    ansible.builtin.debug:
       msg: "is he Trainer: {{Trainer}}"             
 
